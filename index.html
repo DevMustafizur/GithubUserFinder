@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Javascript GitHub Finder Project</title>
+    <style>
+        .color{
+            color:rgb(182, 103, 1);
+            border: 2px dashed #333;
+            border-radius:15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-primary">
+        <div class="container">
+            <a href="#" class="navbar-brand">Search Your Github Profile</a>
+        </div>
+    </nav>
+
+    <div class="container search-container">
+        <div class="card card-body search mt-4 p-4">
+            <h2>Search Github Profile And Users</h2>
+            <p>Type Username or word And See Users Profile</p>
+            <div class="form-group">
+                <input type="text" id="search-user" class="form-control" placeholder="github user Finder...">
+            </div>
+        </div>
+        <br>
+        <div id="profile"></div>
+    </div>
+
+    <footer class="text-center bg-light p-4 mt-4">
+        <h3>Md Mustafizur Rahman &copy; 2021</h3>
+    </footer>
+
+
+    <script src="github.js"></script>
+    <script src="ui.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
